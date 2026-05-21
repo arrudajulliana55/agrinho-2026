@@ -1,11 +1,86 @@
-#corpo{
-    background-color:rgb(253, 253, 221)
+/* --- PALETA DE CORES AGRO SUSTENTÁVEL --- */
+
+/* O corpo do site usa um tom areia bem suave, que cansa menos os olhos que o branco puro */
+#corpo {
+    background-color: #FAF9F5; /* Um off-white/areia bem elegante */
+    color: #2F3E2B;            /* Texto principal em verde-escuro quase preto (melhor leitura) */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-header{
-    background-color: rgb(227, 250, 213);
+/* O topo ganha um destaque em verde-claro folha, bem conectado ao tema */
+header {
+    background-color: #E2F0D9; /* Verde-claro suave e natural */
+    border-bottom: 4px solid #4CAF50; /* Linha viva de destaque verde */
+    padding: 20px;
+    text-align: center;
 }
 
-header div img{
+header h1 {
+    color: #1E4620;            /* Verde floresta fechado para o título principal */
+    margin-top: 10px;
+}
+
+header div img {
     width: 300px;
+    border-radius: 8px;        /* Deixa as bordas da imagem levemente arredondadas */
+}
+
+/* Estilização das seções de texto no meio da página */
+main {
+    max-width: 800px;
+    margin: 0 auto;            /* Centraliza o conteúdo na tela */
+    padding: 20px;
+}
+
+main div {
+    background-color: #FFFFFF; /* Fundo branco para cada bloco de texto se destacar */
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0,05); /* Uma sombra bem leve de fundo */
+    border-left: 5px solid #8BC34A; /* Barrinha verde-alface na lateral de cada bloco */
+}
+
+main h2 {
+    color: #2E6930;            /* Verde médio para os subtítulos */
+    margin-top: 0;
+}
+
+main p {
+    line-height: 1.6;          /* Melhora o espaçamento entre as linhas do texto */
+}
+
+/* Rodapé em tom terroso/escuro para fechar o layout com solidez */
+footer {
+    background-color: #2B3A27; /* Verde-oliva bem escuro */
+    color: #FFFFFF;            /* Texto branco para dar contraste */
+    padding: 30px 20px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+footer h3 {
+    color: #8BC34A;            /* Título dos links em verde-limão para destacar */
+}
+
+footer ul {
+    list-style: none;          /* Remove as bolinhas da lista */
+    padding: 0;
+}
+
+footer ul li {
+    margin: 10px 0;
+}
+
+footer a {
+    color: #A3E2A5;            /* Cor dos links em verde-claro */
+    text-decoration: none;     /* Remove o sublinhado padrão */
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: #FFFFFF;            /* Quando passa o mouse por cima, o link brilha em branco */
+    text-decoration: underline;
 }
